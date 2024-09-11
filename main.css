@@ -1,13 +1,25 @@
-.Calender {
+
+/*body {
+  background-color: black;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 4px;
+  place-items: center;
 }
 
-main ol {
+main {
   list-style: none;
   background-color: red;
+  display: grid;
+  margin: 0 auto;
 }
+
+.Calender {
+  display: grid;
+  grid-template-columns: repeat(7, 5rem);
+  grid-template-rows: repeat(5, 5rem);
+  gap: 4px;
+  background-color: yellowgreen;
+}
+
 .day {
   background-color: blueviolet;
   display: flex;

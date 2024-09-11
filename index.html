@@ -7,6 +7,40 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+    <style>
+      body {
+        background-color: black;
+        display: grid;
+        place-items: center;
+        margin: 0;
+      }
+
+      main {
+        background-color: blue;
+      }
+
+      ol {
+        list-style: none;
+      }
+      .Calender {
+        display: grid;
+        grid-template-columns: repeat(
+          7,
+          1fr
+        ); /* 7 columns for a weekly layout */
+        gap: 4px; /* Space between days */
+        padding: 0;
+        margin: 0;
+      }
+
+      .day {
+        background-color: white; /* Day cell background color */
+        color: black; /* Day cell text color */
+        text-align: center; /* Center text inside day cells */
+        padding: 10px; /* Add some padding inside day cells */
+        border-radius: 4px; /* Optional: Add rounded corners to day cells */
+      }
+    </style>
     <main>
       <ol class="Calender">
         <li class="day">1</li>
